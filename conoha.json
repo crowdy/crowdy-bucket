@@ -1,33 +1,22 @@
 {
-    "version": "0.5.1",
-    "description": "CLI tool for ConoHa VPS3 API",
-    "homepage": "https://crowdy.github.io/conoha-cli-pages/",
-    "license": "MIT",
+    "version": "0.5.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/crowdy/conoha-cli/releases/download/v0.5.1/conoha-cli_0.5.1_windows_amd64.zip",
-            "hash": "0228e5207964cb46f942ec4618ebb0ff010601a98287ee1713cf34ae37763a1e"
+            "url": "https://github.com/crowdy/conoha-cli/releases/download/v0.5.3/conoha-cli_0.5.3_windows_amd64.zip",
+            "bin": [
+                "conoha.exe"
+            ],
+            "hash": "45f447c4b9ff4533cb6878ba7a78a30611edd3d599944b387adbae4c4d2553f2"
         },
         "arm64": {
-            "url": "https://github.com/crowdy/conoha-cli/releases/download/v0.5.1/conoha-cli_0.5.1_windows_arm64.zip",
-            "hash": "e1e34f056e4742abc0326ebf639d544177ae24298ce94eb2db14d70e4437e61c"
+            "url": "https://github.com/crowdy/conoha-cli/releases/download/v0.5.3/conoha-cli_0.5.3_windows_arm64.zip",
+            "bin": [
+                "conoha.exe"
+            ],
+            "hash": "4a9771d643b86ae10d4c3929a4b6237be982b778745d5c070ae6cef26b5e6d3a"
         }
     },
-    "bin": "conoha.exe",
-    "checkver": {
-        "github": "https://github.com/crowdy/conoha-cli"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/crowdy/conoha-cli/releases/download/v$version/conoha-cli_$version_windows_amd64.zip"
-            },
-            "arm64": {
-                "url": "https://github.com/crowdy/conoha-cli/releases/download/v$version/conoha-cli_$version_windows_arm64.zip"
-            }
-        },
-        "hash": {
-            "url": "https://github.com/crowdy/conoha-cli/releases/download/v$version/checksums.txt"
-        }
-    }
+    "homepage": "https://crowdy.github.io/conoha-cli-pages/",
+    "license": "Apache-2.0",
+    "description": "CLI tool for ConoHa VPS3 API"
 }
