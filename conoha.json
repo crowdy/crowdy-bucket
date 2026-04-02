@@ -1,0 +1,33 @@
+{
+    "version": "0.5.1",
+    "description": "CLI tool for ConoHa VPS3 API",
+    "homepage": "https://crowdy.github.io/conoha-cli-pages/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/crowdy/conoha-cli/releases/download/v0.5.1/conoha-cli_0.5.1_windows_amd64.zip",
+            "hash": "0228e5207964cb46f942ec4618ebb0ff010601a98287ee1713cf34ae37763a1e"
+        },
+        "arm64": {
+            "url": "https://github.com/crowdy/conoha-cli/releases/download/v0.5.1/conoha-cli_0.5.1_windows_arm64.zip",
+            "hash": "e1e34f056e4742abc0326ebf639d544177ae24298ce94eb2db14d70e4437e61c"
+        }
+    },
+    "bin": "conoha.exe",
+    "checkver": {
+        "github": "https://github.com/crowdy/conoha-cli"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/crowdy/conoha-cli/releases/download/v$version/conoha-cli_$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/crowdy/conoha-cli/releases/download/v$version/conoha-cli_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/crowdy/conoha-cli/releases/download/v$version/checksums.txt"
+        }
+    }
+}
