@@ -1,19 +1,19 @@
 {
-    "version": "0.5.11",
+    "version": "0.6.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/crowdy/conoha-cli/releases/download/v0.5.11/conoha-cli_0.5.11_windows_amd64.zip",
+            "url": "https://github.com/crowdy/conoha-cli/releases/download/v0.6.0/conoha-cli_0.6.0_windows_amd64.zip",
             "bin": [
                 "conoha.exe"
             ],
-            "hash": "596279276d62f98d38a86df83b6e64e67b218ad5790bf14e6328cfe8848452d1"
+            "hash": "5cf6a68ca031512fa6089030a51641821fc9c79efd043602e4ef4e6b582f900f"
         },
         "arm64": {
-            "url": "https://github.com/crowdy/conoha-cli/releases/download/v0.5.11/conoha-cli_0.5.11_windows_arm64.zip",
+            "url": "https://github.com/crowdy/conoha-cli/releases/download/v0.6.0/conoha-cli_0.6.0_windows_arm64.zip",
             "bin": [
                 "conoha.exe"
             ],
-            "hash": "417cb2b794a77c2a65987fe3cefbfe01c58e1865e9a70b25c2553e0b405c3107"
+            "hash": "55176fd90aab0559e308e69a012252292734315e472b9b252f816df082b66be7"
         }
     },
     "homepage": "https://crowdy.github.io/conoha-cli-pages/",
